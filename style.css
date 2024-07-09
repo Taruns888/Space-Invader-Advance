@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #fff;
+  background-color: #111;
+  margin: 30px;
+}
+
+.main{
+  height: 600px;
+  width: 300px;
+  margin-left: 50px;
+  margin-right: -100px;
+}
+
+canvas {
+  display: block;
+}
+
+.instructions{
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+.instructions h1{
+  color: red;
+}
+
+.instructions ul li{
+  margin-top: 7px;
+}
+
+.instructions ul li i{
+  color: red;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+button {
+  text-decoration: none;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+  grid-gap: 40px;
+  font-size: 14px;
+  width: 180px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(156, 156, 156);
+  color: #fff;
+}
+
+.btn #playButton{
+  background-color: #14919b;
+}
+.btn #playButton:hover{
+  background-color: #3fd3de;
+}
